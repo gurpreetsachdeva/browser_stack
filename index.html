@@ -1,0 +1,15 @@
+<script>
+var socket = io.connect('http://localhost');
+socket.on('status', function (data) {
+  console.log(data);
+});
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<h1>Log Streaming Application</h1>
+</body>
+</html>
